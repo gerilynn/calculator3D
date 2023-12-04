@@ -4,10 +4,10 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 //const canvas = document.querySelector("C");
 
-const light = new THREE.PointLight(0xffffff, 3);
-light.position.set( -2, 4, 4 );
-light.castShadow = true;
-scene.add( light );
+//const light = new THREE.PointLight(0xffffff, 3);
+//light.position.set( -2, 4, 4 );
+//light.castShadow = true;
+//scene.add( light );
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );

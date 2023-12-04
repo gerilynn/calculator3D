@@ -4,6 +4,7 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 //const canvas = document.querySelector("C");
 
+//Adding a point light (color, intensity)
 const light = new THREE.PointLight(0xffffff, 1000);
 light.position.set( -2, 4, 4 );
 light.castShadow = true;
@@ -15,7 +16,7 @@ document.body.appendChild(renderer.domElement);
 
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 //const material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );   //Mesh basic doesn't need light to be seen, but also doesn't react to light. 
-const material = new THREE.MeshPhongMaterial( {color: 0x202098} );
+const material = new THREE.MeshPhongMaterial( {color: 0x00ff00} );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 
