@@ -27,3 +27,5 @@ While it would have been intriguing to delve even deeper into Three.js, I am pro
 References
 
 Three.js – JavaScript 3D Library. (n.d.). https://threejs.org/ 
+
+The url above will take you to our website that is hosted on the school server, however none of the Three.js files uploaded. I used FileZilla to transfer all my files and when I inspect the page, the Three.js sources do not appear. I talked to Riley about this and he could not figure it out either. I have submitted a video of the site working on my local machine but I can not get it to work on the school server.
