@@ -16,7 +16,7 @@ document.body.appendChild(renderer.domElement);
 
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 //const material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );   //Mesh basic doesn't need light to be seen, but also doesn't react to light. 
-const material = new THREE.MeshPhongMaterial( {color: 0x00ff00} );
+const material = new THREE.MeshPhongMaterial( {color: 0x2288ff} );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 
