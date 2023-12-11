@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+  <script type="module" crossorigin src="/assets/index-1LyNbQ2c.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-OCrYrzgr.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="tab"> <a href = "index.html">OriginalCalculator</a></div>
+        <div class="tab"> <a href = "pages/firstMod.html">firstMod</a></div>
+        <div class="tab"> <a href = "pages/secondMod.html">secondMod</a></div>
+        <div class="tab"> <a href = "pages/thirdMod.html">thirdMod</a></div>
+        <div class="tab"> <a href = "pages/otherExamples.html">otherExamples</a></div>
+
+    </nav> 
+    <div id="pix">
+        <picture>
+            <source media="(min-width:600px)" srcset="/assets/machine1280w-CyU9-io1.jpg " width="100%">
+            <img src="/assets/machine640w-xbgCOooM.jpg" width="100%">
+        </picture>   
+    </div>
+<main>
+    <div class="calculator">
+        <span><input id="num1" type="number" ></span>
+        <span id="operation"></span>
+        <span><input id="num2" type="number" ></span>
+        <span id="answer"> = </span> 
+        <br>
+        <span id="operands1">
+            <input id="clear" class="op" type="button" value="C">
+        </span>
+        <span id="operands2">
+            <button class="op" id="plus">+</button>
+            <button class="op" id="minus">-</button>
+        </span>
+        <span id="operands3">
+            <button class="op" id="multiply">x</button>
+            <button class="op" id="divide">&#x00F7;</button>
+        </span>   
+        <span id="operands4">        
+            <button class="op" id="leq">&#8804;</button>
+            <button class="op" id="geq">&#8805;</button>
+        </span>
+    </div>
+</main>
+</body>
+</html>
+
+<!--<input id="convertButton" type="button" value="Convert Units">-->
