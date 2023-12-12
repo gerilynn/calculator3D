@@ -8,11 +8,11 @@ We took a deep dive into Three.js, exploring what it is, how it works, and its i
 
 Lucas’s Link https://csci331.cs.montana.edu/~q65t953/calculator3D/
 
-Geri’s Link
-
 Group GitHub Link https://github.com/gerilynn/calculator3D/
 
-Presentation Slide Show
+Presentation Slide Show https://github.com/gerilynn/calculator3D/blob/main/CSCI%20331%20Final.pptx
+
+To view the slideshow click on "view raw" and the slideshow will download to your machine.
 
 We aimed to deepen our understanding of Three.js, its workings, and its best use cases. Working for a company that frequently utilizes Three.js, I sought to explore it further, while Geri had a desire to enhance her knowledge. Our goal was to comprehend the difficulty involved in building these new interactive websites that are gaining attention.
 
